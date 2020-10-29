@@ -1,0 +1,1 @@
+ A small widget for searching the weather in Nizhny Novgorod
