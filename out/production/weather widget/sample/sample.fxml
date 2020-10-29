@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="356.0" prefWidth="251.0" style="-fx-background-color: #2E3348;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="60.0" prefHeight="297.0" prefWidth="251.0" style="-fx-background-color: #FAFAFA;">
+         <children>
+            <Text fill="#b59f9f" layoutX="148.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create by Irneryi" />
+            <Text fx:id="getFirstInfo" fill="#253297" fontSmoothingType="LCD" layoutX="35.0" layoutY="63.0" strokeMiterLimit="20.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="199.19999999999993">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="16.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="SW_RESIZE" />
+               </cursor>
+            </Text>
+            <Text fx:id="getSecondInfo" fill="#253297" fontSmoothingType="LCD" layoutX="35.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="199.19999999999993">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="getThirdInfo" fill="#253297" fontSmoothingType="LCD" layoutX="35.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="199.19999999999993">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="getLastInfo" fill="#253297" fontSmoothingType="LCD" layoutX="35.0" layoutY="201.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="199.19999999999993">
+               <font>
+                  <Font name="Franklin Gothic Demi" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Label layoutX="16.0" layoutY="14.0" prefHeight="38.0" prefWidth="218.0" text="Погода в Нижнем Новгороде" textFill="WHITE" textOverrun="WORD_ELLIPSIS">
+         <font>
+            <Font name="Segoe Print" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
